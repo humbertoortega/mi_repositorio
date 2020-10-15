@@ -1,7 +1,3 @@
-
-
-
-
 /********************************************
 	Media Query
 ********************************************/
@@ -139,9 +135,24 @@
     }
 
 
+   /* MENSAJE EXITOSO */
 
+    #contact{
+       .mensajedeexito{
+        padding:10px; 
+        margin: 10px; 
+            .link{
+                h1{
+                    align-items: center;
+                    justify-content: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    color: green;
+                }
+            }
+        }
+    }
 }
-
 /******************  Extra large devices (large desktops, 1200px and up) *************/
 @media (min-width: 1200px) { 
 
@@ -261,4 +272,23 @@
         }
     }
 
- }
+
+
+ /* MENSAJE EXITOSO */
+
+    #contact{
+     .mensajedeexito{
+        padding:10px; 
+        margin: 10px; 
+        .link{
+            h1{
+            align-items: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            color: green;
+        }
+        }
+    }
+    }
+}

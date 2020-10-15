@@ -118,6 +118,18 @@ body {
   margin-left: auto;
   margin-right: auto; }
 
+/* MENSAJE EXITOSO */
+#contact .mensajedeexito {
+  padding: 10px;
+  margin: 10px; }
+  #contact .mensajedeexito .link h1 {
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: green; }
+
 #footer .container .container__fila .iconos {
   width: 30px;
   height: 30px; }
@@ -219,7 +231,18 @@ body {
 
   #footer .container .container__fila .copyright {
     font-size: 12px;
-    padding: 15px; } }
+    padding: 15px; }
+
+  /* MENSAJE EXITOSO */
+  #contact .mensajedeexito {
+    padding: 10px;
+    margin: 10px; }
+    #contact .mensajedeexito .link h1 {
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      color: green; } }
 /******************  Extra large devices (large desktops, 1200px and up) *************/
 @media (min-width: 1200px) {
     /**************
@@ -295,6 +318,17 @@ body {
 
   #footer .container .container__fila .copyright {
     font-size: 14px;
-    padding: 20px; } }
+    padding: 20px; }
+
+  /* MENSAJE EXITOSO */
+  #contact .mensajedeexito {
+    padding: 10px;
+    margin: 10px; }
+    #contact .mensajedeexito .link h1 {
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      color: green; } }
 
 /*# sourceMappingURL=main.css.map */

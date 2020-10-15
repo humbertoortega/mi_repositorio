@@ -40,3 +40,23 @@
         }
     }
 }
+
+/* MENSAJE EXITOSO */
+
+#contact{
+    .mensajedeexito{
+        padding:10px; 
+        margin: 10px; 
+        .link{
+            h1{
+            font-size: 30px;
+            align-items: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            color: green;
+        }
+        }
+    }
+}
+
