@@ -1,0 +1,264 @@
+
+
+
+
+/********************************************
+	Media Query
+********************************************/
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/****************** Large devices (desktops, 992px and up) ****************/
+@media (min-width: 992px) { 
+
+
+
+    /**************
+	HEADER SECTION
+    ****************/
+
+    #header{
+        .container{
+            .container__fila{
+                border: 3px ;
+                padding: 3px;
+                align-items: center;
+                .container__columna{
+                    border: 3px;
+                    
+                    .display-4{
+                        font-size: 60px;
+                    }
+                    .container__menu{
+                        font-size: 23px;
+                    }
+
+                .titulouno {
+                    font-size: 25px;  
+                    }       
+                }
+                .tituloalbum{
+                    font-size: 23px;
+                }
+            }
+    
+        }
+    }
+
+
+
+    #header .container .disco{
+        width: 275px; height: 275px;
+        
+    }
+
+    #header .container .container__fila .iconos{
+        width: 40px; height: 40px;
+    }
+
+    
+    #header .container .container__fila .barra{
+        width:400px;
+    }
+   
+
+    /***************
+	ABOUT SECTION
+    *****************/
+
+    #about{
+        .container__image{
+                width: 260px;
+                padding:10px; 
+                margin: 10px; 
+            }
+    }
+
+    #about{
+        .justify-content-center{
+            .container__text{
+                font-size: 12px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: justify; 
+            }
+        }
+    }
+
+    #about  .container__fila .barra{
+        width:400px;
+    }
+ 
+    /***************
+	MUSIC SECTION
+    *****************/
+  
+    #music .container .container__fila .barra{
+        width:400px;
+    }
+
+    /***************
+	EVENTS SECTION
+    *****************/
+  
+    #events .container__fila .barra{
+        width:400px;
+    }
+
+    /***************
+	CONTACT SECTION
+    *****************/
+  
+    #contact .container__fila .barra{
+        width:400px;
+    }
+
+    /***************
+	FOOTER SECTION
+    *****************/
+  
+    #footer .container .container__fila .barra{
+        width:400px;
+    }
+
+    #footer .container .container__fila .iconos{
+        width: 40px; height: 40px;
+    }
+
+    #footer{
+        .container{
+            .container__fila{
+                .copyright {
+                   font-size: 12px;   
+                   padding: 15px; 
+                }
+            }
+        }
+    }
+
+
+
+}
+
+/******************  Extra large devices (large desktops, 1200px and up) *************/
+@media (min-width: 1200px) { 
+
+   
+    /**************
+	HEADER SECTION
+    ****************/
+    #header{
+        .container{
+            .container__fila{
+                border: 3px ;
+                padding: 3px;
+                align-items: center;
+                .container__columna{
+                    border: 3px;
+                    
+                    .display-4{
+                        font-size: 95px;
+                    }
+                    .container__menu{
+                        font-size: 25px;
+                    }
+
+                .titulouno {
+                    font-size: 30px;  
+                    }       
+                }
+                .tituloalbum{
+                    font-size: 23px;
+                }
+            }
+    
+        }
+    }
+
+
+
+
+    #header .container .disco{
+        width: 300px; height: 300px;
+        
+    }
+
+    #header .container .container__fila .iconos{
+        width: 50px; height: 50px;
+    }
+
+    #header .container .container__fila .barra{
+        width:500px;
+    }
+    /***************
+	ABOUT SECTION
+    *****************/
+
+    #about .container__image{
+        width: 290px;
+    }
+  
+    #about{
+        .justify-content-center{
+            .container__text{
+                font-size: 14px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: justify; 
+            }
+        }
+    }
+    
+    #about  .container__fila .barra{
+        width:500px;
+    }
+ 
+    /***************
+	MUSIC SECTION
+    *****************/
+  
+    #music .container .container__fila .barra{
+        width:500px;
+    }
+
+    /***************
+	EVENTS SECTION
+    *****************/
+  
+    #events .container__fila .barra{
+        width:500px;
+    }
+
+    /***************
+	CONTACT SECTION
+    *****************/
+  
+    #contact .container__fila .barra{
+        width:500px;
+    }
+
+    /***************
+	FOOTER SECTION
+    *****************/
+  
+    #footer .container .container__fila .barra{
+        width:500px;
+    }
+
+    #footer .container .container__fila .iconos{
+        width: 50px; height: 50px;
+    }
+
+    #footer{
+        .container{
+            .container__fila{
+                .copyright {
+                   font-size: 14px;
+                   padding: 20px;    
+                }
+            }
+        }
+    }
+
+ }

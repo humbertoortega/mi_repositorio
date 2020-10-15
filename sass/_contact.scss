@@ -1,0 +1,42 @@
+#contact{
+    
+        .container__titulo{
+            font-size: 30px;
+            padding:10px; 
+        }
+    
+}
+
+#contact{
+    
+        .form-control:focus {
+            border: 2px solid #FEE600;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+    
+}
+
+#contact{
+    
+        .form-control {
+            background-color: black;
+            margin-bottom: 20px;
+            padding: 20px;
+            color: #fff;
+            border-width: 3px;
+        }
+    
+}
+
+
+#contact{
+    .container__fila{
+        .barra{
+            border: 1px solid rgb(230, 228, 250);
+            width:250px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}

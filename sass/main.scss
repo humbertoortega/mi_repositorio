@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+$fontlogo: 'Oswald', sans-serif;
+$fontdisco:'Montserrat', sans-serif;
+
+
+
+
+
+
+
+body { 
+    overflow-x: hidden;
+    font-family: $fontlogo;
+    background: #0f0f0f; 
+    font-size: 13px;
+    color:  white; 
+    text-align: center;
+    
+ 
+}
+
+@import "header";
+@import "about";
+@import "music";
+@import "events";
+@import "contact";
+@import "footer";
+@import "mediaquery";

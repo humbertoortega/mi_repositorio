@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  overflow-x: hidden;
+  font-family: "Oswald", sans-serif;
+  background: #0f0f0f;
+  font-size: 13px;
+  color: white;
+  text-align: center; }
+
+#header .container .container__fila {
+  border: 3px;
+  padding: 3px;
+  align-items: center; }
+  #header .container .container__fila .container__columna {
+    border: 3px; }
+    #header .container .container__fila .container__columna h1 {
+      color: #FFECB2;
+      text-decoration: underline; }
+    #header .container .container__fila .container__columna .container__menu {
+      color: #FFECB2;
+      text-decoration: underline; }
+    #header .container .container__fila .container__columna .container__menu:hover {
+      color: azure;
+      text-decoration: underline; }
+    #header .container .container__fila .container__columna .titulouno {
+      font-size: 23px;
+      color: azure;
+      margin: 5px; }
+  #header .container .container__fila .tituloalbum {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: azure;
+    margin: 5px; }
+
+#header .container .disco {
+  padding: 5px;
+  Filter: opacity(50%); }
+#header .container .disco:hover {
+  Filter: opacity(100%); }
+
+#header .container .container__fila .boton {
+  margin: 5px;
+  padding: 5px; }
+
+#header .container .container__fila .barra {
+  border: 1px solid #e6e4fa;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#header .container .container__fila .iconos {
+  width: 30px;
+  height: 30px; }
+
+#about .container__titulo {
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px; }
+
+#about .container__image {
+  padding: 5px;
+  margin: 5px; }
+
+#about .justify-content-center .container__text {
+  padding: 10px;
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify; }
+
+#about .container__fila .barra {
+  border: 1px solid #e6e4fa;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#music .container .container__titulo {
+  font-size: 30px;
+  padding: 10px; }
+
+#music .container .container__fila .barra {
+  border: 1px solid #e6e4fa;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#events .container__titulo {
+  font-size: 30px;
+  padding: 10px; }
+
+#events .formulario {
+  font-family: 'Courier New', Courier, monospace; }
+
+#events .container__fila .barra {
+  border: 1px solid #e6e4fa;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#contact .container__titulo {
+  font-size: 30px;
+  padding: 10px; }
+
+#contact .form-control:focus {
+  border: 2px solid #FEE600;
+  background: rgba(255, 255, 255, 0.1); }
+
+#contact .form-control {
+  background-color: black;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: #fff;
+  border-width: 3px; }
+
+#contact .container__fila .barra {
+  border: 1px solid #e6e4fa;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#footer .container .container__fila .iconos {
+  width: 30px;
+  height: 30px; }
+
+#footer .container .container__fila .barra {
+  border: 1px solid #e6e4fa;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#footer .container .container__fila .copyright {
+  color: #095153;
+  font-size: 10px; }
+  #footer .container .container__fila .copyright .nombre {
+    color: #095153; }
+
+#footer .container .container__fila .copyright .nombre:hover {
+  color: green; }
+
+/********************************************
+	Media Query
+********************************************/
+/* Small devices (landscape phones, 576px and up) */
+/*  Medium devices (tablets, 768px and up) */
+/****************** Large devices (desktops, 992px and up) ****************/
+@media (min-width: 992px) {
+    /**************
+	HEADER SECTION
+    ****************/
+  #header .container .container__fila {
+    border: 3px;
+    padding: 3px;
+    align-items: center; }
+    #header .container .container__fila .container__columna {
+      border: 3px; }
+      #header .container .container__fila .container__columna .display-4 {
+        font-size: 60px; }
+      #header .container .container__fila .container__columna .container__menu {
+        font-size: 23px; }
+      #header .container .container__fila .container__columna .titulouno {
+        font-size: 25px; }
+    #header .container .container__fila .tituloalbum {
+      font-size: 23px; }
+
+  #header .container .disco {
+    width: 275px;
+    height: 275px; }
+
+  #header .container .container__fila .iconos {
+    width: 40px;
+    height: 40px; }
+
+  #header .container .container__fila .barra {
+    width: 400px; }
+
+    /***************
+	ABOUT SECTION
+    *****************/
+  #about .container__image {
+    width: 260px;
+    padding: 10px;
+    margin: 10px; }
+
+  #about .justify-content-center .container__text {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify; }
+
+  #about .container__fila .barra {
+    width: 400px; }
+
+    /***************
+	MUSIC SECTION
+    *****************/
+  #music .container .container__fila .barra {
+    width: 400px; }
+
+    /***************
+	EVENTS SECTION
+    *****************/
+  #events .container__fila .barra {
+    width: 400px; }
+
+    /***************
+	CONTACT SECTION
+    *****************/
+  #contact .container__fila .barra {
+    width: 400px; }
+
+    /***************
+	FOOTER SECTION
+    *****************/
+  #footer .container .container__fila .barra {
+    width: 400px; }
+
+  #footer .container .container__fila .iconos {
+    width: 40px;
+    height: 40px; }
+
+  #footer .container .container__fila .copyright {
+    font-size: 12px;
+    padding: 15px; } }
+/******************  Extra large devices (large desktops, 1200px and up) *************/
+@media (min-width: 1200px) {
+    /**************
+	HEADER SECTION
+    ****************/
+  #header .container .container__fila {
+    border: 3px;
+    padding: 3px;
+    align-items: center; }
+    #header .container .container__fila .container__columna {
+      border: 3px; }
+      #header .container .container__fila .container__columna .display-4 {
+        font-size: 95px; }
+      #header .container .container__fila .container__columna .container__menu {
+        font-size: 25px; }
+      #header .container .container__fila .container__columna .titulouno {
+        font-size: 30px; }
+    #header .container .container__fila .tituloalbum {
+      font-size: 23px; }
+
+  #header .container .disco {
+    width: 300px;
+    height: 300px; }
+
+  #header .container .container__fila .iconos {
+    width: 50px;
+    height: 50px; }
+
+  #header .container .container__fila .barra {
+    width: 500px; }
+
+    /***************
+	ABOUT SECTION
+    *****************/
+  #about .container__image {
+    width: 290px; }
+
+  #about .justify-content-center .container__text {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify; }
+
+  #about .container__fila .barra {
+    width: 500px; }
+
+    /***************
+	MUSIC SECTION
+    *****************/
+  #music .container .container__fila .barra {
+    width: 500px; }
+
+    /***************
+	EVENTS SECTION
+    *****************/
+  #events .container__fila .barra {
+    width: 500px; }
+
+    /***************
+	CONTACT SECTION
+    *****************/
+  #contact .container__fila .barra {
+    width: 500px; }
+
+    /***************
+	FOOTER SECTION
+    *****************/
+  #footer .container .container__fila .barra {
+    width: 500px; }
+
+  #footer .container .container__fila .iconos {
+    width: 50px;
+    height: 50px; }
+
+  #footer .container .container__fila .copyright {
+    font-size: 14px;
+    padding: 20px; } }
+
+/*# sourceMappingURL=main.css.map */
