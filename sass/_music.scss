@@ -1,14 +1,18 @@
 #music{
-    .container{
+   
+    padding-top: 10px;
+    padding-bottom: 15px;
+    
         .container__titulo{
             font-size: 30px;
-            padding:10px; 
+            padding:10px;
+            margin: 10px;  
         }
-    }
+    
 }
 
 #music{
-    .container{
+    
         .container__fila{
             .barra{
                 border: 1px solid rgb(230, 228, 250);
@@ -18,5 +22,5 @@
             }
         }
 
-    }
+    
 }

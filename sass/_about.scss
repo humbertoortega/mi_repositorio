@@ -1,26 +1,27 @@
 #about{
     
-        .container__titulo{
-            font-size: 30px;
-            padding:10px; 
-            margin: 10px; 
+    padding-top: 10px;
+    padding-bottom: 15px;
 
-        }
+    .container__titulo{
+        font-size: 30px;
+        padding:10px; 
+        margin: 10px; 
+    }
 }
 
 #about{
-        .container__image{
-            padding:5px; 
-            margin: 5px; 
+    .container__image{
+        padding:5px; 
+        margin: 5px; 
     }
-   
 }
 
 #about{
     .justify-content-center{
         .container__text{
             padding:10px; 
-            font-size: 10px;
+            font-size: 12px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             text-align: justify; 
         }

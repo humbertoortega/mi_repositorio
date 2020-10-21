@@ -5,20 +5,25 @@ $fontlogo: 'Oswald', sans-serif;
 $fontdisco:'Montserrat', sans-serif;
 
 
+/* General */
+html {
+    scroll-behavior: smooth;
 
-
-
+}
 
 
 body { 
+    
+    background: #161415 url(../images/background.jpg) no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover ;
+
     overflow-x: hidden;
     font-family: $fontlogo;
-    background: #0f0f0f; 
+    
     font-size: 13px;
     color:  white; 
     text-align: center;
-    
- 
 }
 
 @import "header";

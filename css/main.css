@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* General */
+html {
+  scroll-behavior: smooth; }
+
 body {
+  background: #161415 url(../images/background.jpg) no-repeat top center;
+  background-attachment: fixed;
+  background-size: cover;
   overflow-x: hidden;
   font-family: "Oswald", sans-serif;
-  background: #0f0f0f;
   font-size: 13px;
   color: white;
   text-align: center; }
@@ -33,12 +39,6 @@ body {
     color: azure;
     margin: 5px; }
 
-#header .container .disco {
-  padding: 5px;
-  Filter: opacity(50%); }
-#header .container .disco:hover {
-  Filter: opacity(100%); }
-
 #header .container .container__fila .boton {
   margin: 5px;
   padding: 5px; }
@@ -53,10 +53,13 @@ body {
   width: 30px;
   height: 30px; }
 
-#about .container__titulo {
-  font-size: 30px;
-  padding: 10px;
-  margin: 10px; }
+#about {
+  padding-top: 10px;
+  padding-bottom: 15px; }
+  #about .container__titulo {
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px; }
 
 #about .container__image {
   padding: 5px;
@@ -64,7 +67,7 @@ body {
 
 #about .justify-content-center .container__text {
   padding: 10px;
-  font-size: 10px;
+  font-size: 12px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: justify; }
 
@@ -74,19 +77,26 @@ body {
   margin-left: auto;
   margin-right: auto; }
 
-#music .container .container__titulo {
-  font-size: 30px;
-  padding: 10px; }
+#music {
+  padding-top: 10px;
+  padding-bottom: 15px; }
+  #music .container__titulo {
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px; }
 
-#music .container .container__fila .barra {
+#music .container__fila .barra {
   border: 1px solid #e6e4fa;
   width: 250px;
   margin-left: auto;
   margin-right: auto; }
 
-#events .container__titulo {
-  font-size: 30px;
-  padding: 10px; }
+#events {
+  padding-top: 10px;
+  padding-bottom: 15px; }
+  #events .container__titulo {
+    font-size: 30px;
+    padding: 10px; }
 
 #events .formulario {
   font-family: 'Courier New', Courier, monospace; }
@@ -97,9 +107,12 @@ body {
   margin-left: auto;
   margin-right: auto; }
 
-#contact .container__titulo {
-  font-size: 30px;
-  padding: 10px; }
+#contact {
+  padding-top: 10px;
+  padding-bottom: 15px; }
+  #contact .container__titulo {
+    font-size: 30px;
+    padding: 10px; }
 
 #contact .form-control:focus {
   border: 2px solid #FEE600;
@@ -141,13 +154,13 @@ body {
   margin-right: auto; }
 
 #footer .container .container__fila .copyright {
-  color: #095153;
+  color: #414e4e;
   font-size: 10px; }
   #footer .container .container__fila .copyright .nombre {
-    color: #095153; }
+    color: #184b4d; }
 
 #footer .container .container__fila .copyright .nombre:hover {
-  color: green; }
+  color: #3f9c3f; }
 
 /********************************************
 	Media Query
@@ -188,10 +201,13 @@ body {
     /***************
 	ABOUT SECTION
     *****************/
-  #about .container__image {
-    width: 260px;
-    padding: 10px;
-    margin: 10px; }
+  #about {
+    padding-top: 66px;
+    padding-bottom: 66px; }
+    #about .container__image {
+      width: 260px;
+      padding: 10px;
+      margin: 10px; }
 
   #about .justify-content-center .container__text {
     font-size: 12px;
@@ -204,18 +220,30 @@ body {
     /***************
 	MUSIC SECTION
     *****************/
-  #music .container .container__fila .barra {
+  #music {
+    padding-top: 66px;
+    padding-bottom: 66px; }
+
+  #music .container__fila .barra {
     width: 400px; }
 
     /***************
 	EVENTS SECTION
     *****************/
+  #evets {
+    padding-top: 66px;
+    padding-bottom: 66px; }
+
   #events .container__fila .barra {
     width: 400px; }
 
     /***************
 	CONTACT SECTION
     *****************/
+  #contact {
+    padding-top: 66px;
+    padding-bottom: 66px; }
+
   #contact .container__fila .barra {
     width: 400px; }
 
@@ -277,11 +305,15 @@ body {
     /***************
 	ABOUT SECTION
     *****************/
+  #about {
+    padding-top: 66px;
+    padding-bottom: 66px; }
+
   #about .container__image {
-    width: 290px; }
+    width: 300px; }
 
   #about .justify-content-center .container__text {
-    font-size: 14px;
+    font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify; }
 
@@ -291,18 +323,30 @@ body {
     /***************
 	MUSIC SECTION
     *****************/
-  #music .container .container__fila .barra {
+  #music {
+    padding-top: 16px;
+    padding-bottom: 66px; }
+
+  #music .container__fila .barra {
     width: 500px; }
 
     /***************
 	EVENTS SECTION
     *****************/
+  #evets {
+    padding-top: 66px;
+    padding-bottom: 66px; }
+
   #events .container__fila .barra {
     width: 500px; }
 
     /***************
 	CONTACT SECTION
     *****************/
+  #contact {
+    padding-top: 66px;
+    padding-bottom: 66px; }
+
   #contact .container__fila .barra {
     width: 500px; }
 
