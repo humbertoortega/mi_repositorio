@@ -14,6 +14,54 @@ body {
   color: white;
   text-align: center; }
 
+.container__fila .barra {
+  border: 1px solid #e6e4fa;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* --------------Start Bottom Up Style-------------- */
+.cm-up {
+  display: none;
+  position: fixed;
+  background: #001e34;
+  outline: none;
+  height: 30px;
+  border-radius: 50px;
+  bottom: 10px;
+  right: 20px;
+  cursor: pointer; }
+
+.cm-up .cm-text-up {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  float: left;
+  padding: 0;
+  font-size: 16px;
+  line-height: 30px;
+  transition: 0.4s;
+  width: 0px; }
+
+.cm-up .cm-icon {
+  background: #001e34;
+  color: #00b2ff;
+  font-size: 20px;
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s; }
+
+.cm-up:hover > .cm-icon {
+  background: #fff; }
+
+/* --------------End Bottom Up Style-------------- */
 #header .container .container__fila {
   border: 3px;
   padding: 3px;
@@ -71,12 +119,6 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: justify; }
 
-#about .container__fila .barra {
-  border: 1px solid #e6e4fa;
-  width: 250px;
-  margin-left: auto;
-  margin-right: auto; }
-
 #music {
   padding-top: 10px;
   padding-bottom: 15px; }
@@ -84,12 +126,6 @@ body {
     font-size: 30px;
     padding: 10px;
     margin: 10px; }
-
-#music .container__fila .barra {
-  border: 1px solid #e6e4fa;
-  width: 250px;
-  margin-left: auto;
-  margin-right: auto; }
 
 #events {
   padding-top: 10px;
@@ -169,6 +205,9 @@ body {
 /*  Medium devices (tablets, 768px and up) */
 /****************** Large devices (desktops, 992px and up) ****************/
 @media (min-width: 992px) {
+  .container__fila .barra {
+    width: 400px; }
+
     /**************
 	HEADER SECTION
     ****************/
@@ -214,9 +253,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify; }
 
-  #about .container__fila .barra {
-    width: 400px; }
-
     /***************
 	MUSIC SECTION
     *****************/
@@ -224,18 +260,12 @@ body {
     padding-top: 66px;
     padding-bottom: 66px; }
 
-  #music .container__fila .barra {
-    width: 400px; }
-
     /***************
 	EVENTS SECTION
     *****************/
-  #evets {
+  #events {
     padding-top: 66px;
     padding-bottom: 66px; }
-
-  #events .container__fila .barra {
-    width: 400px; }
 
     /***************
 	CONTACT SECTION
@@ -243,9 +273,6 @@ body {
   #contact {
     padding-top: 66px;
     padding-bottom: 66px; }
-
-  #contact .container__fila .barra {
-    width: 400px; }
 
     /***************
 	FOOTER SECTION
@@ -270,9 +297,59 @@ body {
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
-      color: green; } }
+      color: green; }
+
+  /* --------------Start Bottom Up Style-------------- */
+  .cm-up {
+    display: none;
+    position: fixed;
+    background: #001e34;
+    outline: none;
+    height: 30px;
+    border-radius: 50px;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer; }
+
+  .cm-up .cm-text-up {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    float: left;
+    padding: 0;
+    font-size: 16px;
+    line-height: 30px;
+    transition: 0.4s;
+    width: 0px; }
+
+  .cm-up .cm-icon {
+    background: #001e34;
+    color: #00b2ff;
+    font-size: 20px;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s; }
+
+  .cm-up:hover > .cm-text-up {
+    width: 50px;
+    padding: 0 6px; }
+
+  .cm-up:hover > .cm-icon {
+    background: #fff; }
+
+  /* --------------End Bottom Up Style-------------- */ }
 /******************  Extra large devices (large desktops, 1200px and up) *************/
 @media (min-width: 1200px) {
+  .container__fila .barra {
+    width: 500px; }
+
     /**************
 	HEADER SECTION
     ****************/
@@ -317,18 +394,12 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify; }
 
-  #about .container__fila .barra {
-    width: 500px; }
-
     /***************
 	MUSIC SECTION
     *****************/
   #music {
     padding-top: 16px;
     padding-bottom: 66px; }
-
-  #music .container__fila .barra {
-    width: 500px; }
 
     /***************
 	EVENTS SECTION
@@ -337,18 +408,12 @@ body {
     padding-top: 66px;
     padding-bottom: 66px; }
 
-  #events .container__fila .barra {
-    width: 500px; }
-
     /***************
 	CONTACT SECTION
     *****************/
   #contact {
     padding-top: 66px;
     padding-bottom: 66px; }
-
-  #contact .container__fila .barra {
-    width: 500px; }
 
     /***************
 	FOOTER SECTION
@@ -373,6 +438,53 @@ body {
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
-      color: green; } }
+      color: green; }
+
+  /* --------------Start Bottom Up Style-------------- */
+  .cm-up {
+    display: none;
+    position: fixed;
+    background: #001e34;
+    outline: none;
+    height: 30px;
+    border-radius: 50px;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer; }
+
+  .cm-up .cm-text-up {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    float: left;
+    padding: 0;
+    font-size: 16px;
+    line-height: 30px;
+    transition: 0.4s;
+    width: 0px; }
+
+  .cm-up .cm-icon {
+    background: #001e34;
+    color: #00b2ff;
+    font-size: 20px;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s; }
+
+  .cm-up:hover > .cm-text-up {
+    width: 50px;
+    padding: 0 6px; }
+
+  .cm-up:hover > .cm-icon {
+    background: #fff; }
+
+  /* --------------End Bottom Up Style-------------- */ }
 
 /*# sourceMappingURL=main.css.map */
