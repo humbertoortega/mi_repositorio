@@ -105,9 +105,10 @@ body {
   padding-top: 10px;
   padding-bottom: 15px; }
   #about .container__titulo {
-    font-size: 30px;
     padding: 10px;
     margin: 10px; }
+    #about .container__titulo h2 {
+      font-size: 35px; }
 
 #about .container__image {
   padding: 5px;
@@ -123,16 +124,18 @@ body {
   padding-top: 10px;
   padding-bottom: 15px; }
   #music .container__titulo {
-    font-size: 30px;
     padding: 10px;
     margin: 10px; }
+    #music .container__titulo h2 {
+      font-size: 35px; }
 
 #events {
   padding-top: 10px;
   padding-bottom: 15px; }
   #events .container__titulo {
-    font-size: 30px;
     padding: 10px; }
+    #events .container__titulo h2 {
+      font-size: 35px; }
 
 #events .formulario {
   font-family: 'Courier New', Courier, monospace; }
@@ -147,8 +150,9 @@ body {
   padding-top: 10px;
   padding-bottom: 15px; }
   #contact .container__titulo {
-    font-size: 30px;
     padding: 10px; }
+    #contact .container__titulo h2 {
+      font-size: 35px; }
 
 #contact .form-control:focus {
   border: 2px solid #FEE600;
@@ -190,13 +194,14 @@ body {
   margin-right: auto; }
 
 #footer .container .container__fila .copyright {
-  color: #414e4e;
-  font-size: 10px; }
+  margin: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a2f3f3;
+  font-size: 12px; }
   #footer .container .container__fila .copyright .nombre {
-    color: #184b4d; }
-
-#footer .container .container__fila .copyright .nombre:hover {
-  color: #3f9c3f; }
+    color: #5dbabd; }
+  #footer .container .container__fila .copyright .nombre:hover {
+    color: #478f47; }
 
 /********************************************
 	Media Query
@@ -243,6 +248,11 @@ body {
   #about {
     padding-top: 66px;
     padding-bottom: 66px; }
+    #about .container__titulo {
+      padding: 10px;
+      margin: 10px; }
+      #about .container__titulo h2 {
+        font-size: 40px; }
     #about .container__image {
       width: 260px;
       padding: 10px;
@@ -259,6 +269,11 @@ body {
   #music {
     padding-top: 66px;
     padding-bottom: 66px; }
+    #music .container__titulo {
+      padding: 10px;
+      margin: 10px; }
+      #music .container__titulo h2 {
+        font-size: 40px; }
 
     /***************
 	EVENTS SECTION
@@ -266,6 +281,11 @@ body {
   #events {
     padding-top: 66px;
     padding-bottom: 66px; }
+    #events .container__titulo {
+      padding: 10px;
+      margin: 10px; }
+      #events .container__titulo h2 {
+        font-size: 40px; }
 
     /***************
 	CONTACT SECTION
@@ -273,6 +293,11 @@ body {
   #contact {
     padding-top: 66px;
     padding-bottom: 66px; }
+    #contact .container__titulo {
+      padding: 10px;
+      margin: 10px; }
+      #contact .container__titulo h2 {
+        font-size: 40px; }
 
     /***************
 	FOOTER SECTION
@@ -285,8 +310,14 @@ body {
     height: 40px; }
 
   #footer .container .container__fila .copyright {
-    font-size: 12px;
-    padding: 15px; }
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a2f3f3;
+    font-size: 14px; }
+    #footer .container .container__fila .copyright .nombre {
+      color: #5dbabd; }
+    #footer .container .container__fila .copyright .nombre:hover {
+      color: #478f47; }
 
   /* MENSAJE EXITOSO */
   #contact .mensajedeexito {
@@ -385,6 +416,11 @@ body {
   #about {
     padding-top: 66px;
     padding-bottom: 66px; }
+    #about .container__titulo {
+      padding: 10px;
+      margin: 10px; }
+      #about .container__titulo h2 {
+        font-size: 50px; }
 
   #about .container__image {
     width: 300px; }
@@ -400,6 +436,11 @@ body {
   #music {
     padding-top: 16px;
     padding-bottom: 66px; }
+    #music .container__titulo {
+      padding: 10px;
+      margin: 10px; }
+      #music .container__titulo h2 {
+        font-size: 50px; }
 
     /***************
 	EVENTS SECTION
@@ -407,6 +448,11 @@ body {
   #evets {
     padding-top: 66px;
     padding-bottom: 66px; }
+    #evets .container__titulo {
+      padding: 10px;
+      margin: 10px; }
+      #evets .container__titulo h2 {
+        font-size: 50px; }
 
     /***************
 	CONTACT SECTION
@@ -414,6 +460,11 @@ body {
   #contact {
     padding-top: 66px;
     padding-bottom: 66px; }
+    #contact .container__titulo {
+      padding: 10px;
+      margin: 10px; }
+      #contact .container__titulo h2 {
+        font-size: 50px; }
 
     /***************
 	FOOTER SECTION
@@ -426,8 +477,14 @@ body {
     height: 50px; }
 
   #footer .container .container__fila .copyright {
-    font-size: 14px;
-    padding: 20px; }
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a2f3f3;
+    font-size: 14px; }
+    #footer .container .container__fila .copyright .nombre {
+      color: #5dbabd; }
+    #footer .container .container__fila .copyright .nombre:hover {
+      color: #478f47; }
 
   /* MENSAJE EXITOSO */
   #contact .mensajedeexito {
